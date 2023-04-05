@@ -5,22 +5,30 @@
 	This is a Spring Boot project using the Spring Initializr and it includes necessary dependencies like Spring Boot DevTools, Spring web, Spring DataJPA(to use hibernate), MySQL(to connect SQL).  Here, used postman for send data from front end and using spring boot performs operations on the table.
                  
 **How to run the application**
+
 Step 1: Import the project in eclipse framework
+
 Step 2: Add Database details and user details in application.properties file
+
 Step 3: Open Postman and create new request
         Select GET fetch all details of client and write url- http://localhost:6133/getAllClient
         It will return all data of client.
+
 Step 4: Select GET fetch details of client by id and 
         write url- http://localhost:6133/getClient?id=1
         It will return client detail of id 1.
+
 Step 5: Select POST to save details of client and
         write url- http://localhost:6133/saveClient.
         It will save client details.
+
 Step 6: Select PUT to update details of client and
         write url- http://localhost:6133/updateClient
         It will be update the client details and display the messa 
+
 Step 7: Select DELETE to delete details of client and
         write url- http://localhost:6133/delClient?id=3 
+
 Step 8: Similar follow steps 4 to 7 to perform crud operation on InsuarancePolicy and claims.
 
 **Structure**
