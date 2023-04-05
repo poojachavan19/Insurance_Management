@@ -5,8 +5,8 @@
 	This is a Spring Boot project using the Spring Initializr and it includes necessary dependencies like Spring Boot DevTools, Spring web, Spring DataJPA(to use hibernate), MySQL(to connect SQL).  Here, used postman for send data from front end and using spring boot performs operations on the table.
                  
 **How to run the application**
-#Step 1: Import the project in eclipse framework
-#Step 2: Add Database details and user details in application.properties file
+# Step 1: Import the project in eclipse framework
+# Step 2: Add Database details and user details in application.properties file
 #Step 3: Open Postman and create new request
         Select GET fetch all details of client and write url- http://localhost:6133/getAllClient
         It will return all data of client.
